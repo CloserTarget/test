@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cardápio Volcano Adega</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="Volcano.jpeg" alt="Logo" class="logo">
+  <nav>
+    <a href="#drinks">Drinks</a>
+    <a href="#cervejas">Cervejas</a>
+    <a href="#combos">Combos</a>
+    <a href="carrinho.html">🛒</a>
+  </nav>
+</header>
+
+<main id="drinks" class="produtos">
+  <h2>Drinks</h2>
+  <div class="produto">
+    <div>
+      <h3>Wisk Red Label</h3>
+      <p>$29,99</p>
+    </div>
+    <img src="img/Red Label.jpg" alt="Red Label">
+    <button onclick="adicionarAoCarrinho('Wisk Red Label', 29.99)">Adicionar</button>
+  </div>
+
+  <div class="produto">
+    <div>
+      <h3>Jack Daniels</h3>
+      <p>$34,99</p>
+    </div>
+    <img src="img/Jack Daniels.jpg" alt="Jack Daniels">
+    <button onclick="adicionarAoCarrinho('Jack Daniels', 34.99)">Adicionar</button>
+  </div>
+</main>
+
+<!-- Continue com Cervejas, Combos... -->
+
+
+<script src="script.js"></script>
+</body>
+</html>
